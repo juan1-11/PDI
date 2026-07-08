@@ -35,4 +35,3 @@ execute if score #moon dificultad matches 1 run function pdi:eventos/luna_roja/l
 
 
 
-

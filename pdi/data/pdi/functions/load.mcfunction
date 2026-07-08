@@ -1,4 +1,6 @@
 #0.Archivo encargado de inicializar scoreboards, funciones y caracteisticas del server
+say run
+
 
 #1.Degugeador (scoreboard y declaracion)
 scoreboard objectives add comprobador dummy
