@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "cegador_midas":{
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "zombie",
+                    "nbt": "{Tag:[\"cegador_1\"]}"
+                }
+            } 
+        }
+    },
+    "rewards": {
+        "function": "pdi:efectos/mob/cegador/cegador_kill1"
+    }
+}

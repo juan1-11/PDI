@@ -1,0 +1,37 @@
+#0.Archivo encargado de reproducir las funciones tick por tick
+
+#1.Generacion de un numero aleatorio
+function pdi:funciones_generales/random_number
+#1.00.Debug
+execute if score #game sfa_comp_num_ale matches 1 run function pdi:comprobaciones/comprobaciones_numero_aleatorio
+
+#2.Creacion de mobs
+function pdi:mob/mobs_timer_remove
+function pdi:mob/mobs_init
+#2.00.Debug
+execute if score #game sfa_comp_mob_c_t matches 1 run function pdi:mob/mob_comprobaciones/cegador/timer/comprobacion_timer_cegador
+execute if score #game sfa_comp_mob_z_t matches 1 run function pdi:mob/mob_comprobaciones/zombie/timer/comprobacion_timer_zombie
+
+#3.Cofre de resurreccion
+function pdi:eventos/resureccion/cofre_resurreccion
+
+#4.Muerte de un jugador
+execute as @a[gamemode=spectator, tag=!death] run function pdi:eventos/muerte/muerte_jugador
+
+#5.Luna roja
+execute store result score #moon comprobador run time query daytime
+execute if score #moon comprobador matches 12542 run function pdi:eventos/luna_roja/luna_roja_dias
+
+##DEPENDENCIAS
+# FUNCION: pdi:general/random_number (PARA GENERAR EL NUMERO ALEATORIO-1)
+# FUNCION: pdi:comprobaciones/comprobaciones_numero_aleatorio (PARA OBSERVAR LOS NUMEROS GENERADOS)
+# FUNCION: pdi:mob/mob_comprobaciones/cegador/timer/comprobacion_timer_cegador (PARA OBSERVAR TIMERS DE LOS ZOMBIES)
+# FUNCION: pdi:mob/mob_comprobaciones/zombie/timer/comprobacion_timer_zombie (PARA OBSERVAR EL TIMER DE LOS CEGADORES)
+# FUNCION: pdi:eventos/resureccion/cofre_resurreccion (PARA VERIFICAR SI SE REVIVE A ALGUIEN POR COFRE)
+# FUNCION: pdi:eventos/muerte/muerte_jugador (POR SI ALGUIEN SE MUERE)
+# FUNCION: pdi:eventos/luna_roja/luna_roja_dias (PARA BAJAR LOS DIAS PARA LA LUNA ROJA)
+
+
+
+
+

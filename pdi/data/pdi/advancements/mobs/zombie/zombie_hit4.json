@@ -13,7 +13,7 @@
         }
     },
     "rewards": {
-        "function": "pdi:effects/mob/zombie/zombie_hit4"
+        "function": "pdi:efectos/mob/zombie/zombie_hit4"
     }
 }
 

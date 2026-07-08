@@ -2,7 +2,7 @@
 
 #1.Detectar cofre especial
 scoreboard objectives add sfa_cofre_res dummy
-execute if data block 760 67 222 {Items:[{id:"minecraft:gold_nugget",Count:1b,tag:{soul:1b}}]} if data block 760 67 222 {Items:[{id:"minecraft:written_book",Count:1b}]} if data block 760 67 222 {Items:[{id:"minecraft:diamond",Count:1b,tag:{corp:1b}}]} if data block 760 67 222 {Items:[{id:"minecraft:iron_nugget",Count:1b,tag:{mind:1b}}]} run scoreboard players set #game sfa_cofre_res 1
+execute if data block 760 67 222 {Items:[{id:"minecraft:gold_nugget",Count:1b,tag:{soul_part:1b}}]} if data block 760 67 222 {Items:[{id:"minecraft:written_book",Count:1b}]} if data block 760 67 222 {Items:[{id:"minecraft:diamond",Count:1b,tag:{mind_part:1b}}]} if data block 760 67 222 {Items:[{id:"minecraft:iron_nugget",Count:1b,tag:{corp_part:1b}}]} run scoreboard players set #game sfa_cofre_res 1
 
 #2.Borrar el cofre
 execute if score #game sfa_cofre_res matches 1 run data merge block 760 67 222 {Items:[]}

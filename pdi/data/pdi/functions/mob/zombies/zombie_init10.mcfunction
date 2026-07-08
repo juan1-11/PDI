@@ -11,3 +11,6 @@ kill @s
 
 #4.Timer
 scoreboard players set #mzo10 mob_timer 200
+
+##00.Debug
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 10 generado"]
