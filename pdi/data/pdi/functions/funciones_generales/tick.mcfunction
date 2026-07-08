@@ -5,6 +5,10 @@ function pdi:funciones_generales/random_number
 #1.00.Debug
 execute if score #game sfa_comp_num_ale matches 1 run function pdi:comprobaciones/comprobaciones_numero_aleatorio
 
+#2.Creacion de mobs
+#
+#2.1.Zombies
+
 ##DEPENDENCIAS
 # FUNCION: pdi:general/random_number (PARA GENERAR EL NUMERO ALEATORIO-1)
 # FUNCION: pdi:comprobaciones/comprobaciones_numero_aleatorio (PARA OBSERVAR LOS NUMEROS GENERADOS)
