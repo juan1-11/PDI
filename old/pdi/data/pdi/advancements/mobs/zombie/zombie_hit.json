@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "zombi_hit":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "zombie",
+                        "nbt": "{Tags:[\"zombi4\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pdi:effects/zombie_hit"
+    }
+
+}
