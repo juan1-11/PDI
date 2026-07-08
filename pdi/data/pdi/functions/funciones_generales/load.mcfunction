@@ -16,5 +16,5 @@ scoreboard players set #game divisor 200
 #La variable {|#game divisor| se usara para dividir el tiempo total del juego} {|#game random| se usa para tener un numero RNG}
 
 #4.Version y descripcion
-summon armor_stand 0 0 0 {Invulnerable:1b, Invisible:1b,CustomName:'{"text": "1.0.0"}', Tags:[version]}
-summon armor_stand 0 0 0 {Invulnerable:1b, Invisible:1b, Tags:[descripcion], CustomName:'{"text": "Permadeath"}'}
+summon minecraft:armor_stand 0 0 0 {Invulnerable:1b, Invisible:1b,CustomName:'{"text": "1.1.0"}', Tags:[version]}
+summon minecraft:armor_stand 0 0 0 {Invulnerable:1b, Invisible:1b, Tags:[descripcion], CustomName:'{"text": "Zombies Update"}'}

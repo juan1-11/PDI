@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "zombi_poison":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "zombie",
+                        "nbt": "{Tag:[\"zombie_4\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pdi:effects/mob/zombie/zombie_hit4"
+    }
+}
