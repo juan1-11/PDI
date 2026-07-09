@@ -27,6 +27,10 @@ execute if score #moon dificultad matches 1 run function pdi:eventos/luna_roja/l
 #5.1.Pillagers
 execute if score #moon comprobador matches 60 run function pdi:eventos/raid/raid_timer_remove
 
+#6.Jefes
+#6.1.Ilucionista
+execute if score #ilucionista_on comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_ciclo
+
 
 ##DEPENDENCIAS
 # FUNCION: pdi:general/random_number (PARA GENERAR EL NUMERO ALEATORIO-1)

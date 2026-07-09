@@ -7,3 +7,6 @@ title @a subtitle {"text": "volvere por él", "color": "dark_red"}
 
 #2.Matar a los vindicadores
 kill @e[tag=vindicador1]
+
+#3.Actualiza los scoreboards
+scoreboard players set #ilucionista_on comprobador 0

@@ -10,3 +10,6 @@ execute if score #ilucionista vida matches ..40 if score #ilucionista comprobado
 
 #3.Detectar muerte
 execute if score #ilucionista vida matches ..0 if score #ilucionista comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_segunda_fase
+
+#00.Debug
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative] ["se corre la funcion de ciclo"]
