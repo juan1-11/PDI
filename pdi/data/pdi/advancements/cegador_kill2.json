@@ -1,16 +1,16 @@
 {
     "criteria": {
-        "cegador_midas":{
+        "cegador_berserker":{
             "trigger": "player_killed_entity",
             "conditions": {
                 "entity": {
                     "type": "zombie",
-                    "nbt": "{Tag:[\"cegador_1\"]}"
+                    "nbt": "{Tags:[\"cegador_2\"]}"
                 }
-            } 
+            }
         }
     },
     "rewards": {
-        "function": "pdi:efectos/mob/cegador/cegador_kill1"
+        "function": "pdi:efectos/mob/cegador/cegador_kill2"
     }
 }

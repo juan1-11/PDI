@@ -24,9 +24,10 @@ execute if score #game sfa_cofre_res matches 1 run playsound item.totem.use mast
 #5.Cambio modo
 execute if score #game sfa_cofre_res matches 1 run gamemode survival @a[gamemode=spectator,limit=1]
 
+##00.Debug
+execute if score #game sfa_cofre_res matches 1 if score #game comprobador matches 1 run tellraw @a[gamemode= creative,limit=1] ["Ha revivido un jugador"]
+
 #6.Reiniciar cofre
 scoreboard players set #game sfa_cofre_res 0
 
 
-##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative,limit=1] ["Ha revivido un jugador"]

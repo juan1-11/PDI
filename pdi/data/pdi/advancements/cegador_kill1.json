@@ -5,12 +5,12 @@
             "conditions": {
                 "entity": {
                     "type": "zombie",
-                    "nbt": "{Tag:[\"cegador_3\"]}"
+                    "nbt": "{Tags:[\"cegador_1\"]}"
                 }
             } 
         }
     },
     "rewards": {
-        "function": "pdi:efectos/mob/cegador/cegador_kill3"
+        "function": "pdi:efectos/mob/cegador/cegador_kill1"
     }
 }

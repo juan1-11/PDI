@@ -14,6 +14,9 @@ execute if score #game sfa_comp_mob_z_t matches 1 run function pdi:mob/mob_compr
 
 #3.Cofre de resurreccion
 function pdi:eventos/resureccion/cofre_resurreccion
+#3.1.Efecto Arbol
+particle soul_fire_flame 760 89 229 1 1 1 0.1 5 normal
+particle enchant 760 89 229 0.1 80 0.1 0.1 50 normal
 
 #4.Muerte de un jugador
 execute as @a[gamemode=spectator, tag=!death] run function pdi:eventos/muerte/muerte_jugador
