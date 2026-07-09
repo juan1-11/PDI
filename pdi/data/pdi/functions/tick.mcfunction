@@ -20,8 +20,13 @@ execute as @a[gamemode=spectator, tag=!death] run function pdi:eventos/muerte/mu
 
 #5.Luna roja
 execute store result score #moon comprobador run time query daytime
-execute if score #moon comprobador matches 12000..12001 run function pdi:eventos/luna_roja/luna_roja_dias
+execute if score #moon comprobador matches 12200 run function pdi:eventos/luna_roja/luna_roja_dias
 execute if score #moon dificultad matches 1 run function pdi:eventos/luna_roja/luna_roja_ciclo
+
+#5.Raids (comprobaciones y dias)
+#5.1.Pillagers
+execute if score #moon comprobador matches 60 run function pdi:eventos/raid/raid_timer_remove
+
 
 ##DEPENDENCIAS
 # FUNCION: pdi:general/random_number (PARA GENERAR EL NUMERO ALEATORIO-1)

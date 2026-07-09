@@ -24,5 +24,8 @@ summon minecraft:armor_stand 0 0 0 {Invulnerable:1b, Invisible:1b, Tags:[descrip
 #5.Creacion de mobs
 function pdi:mob/mobs_timer
 
+#6.Luna roja (dias restantes)
+scoreboard objectives add dias_res_lr dummy
+
 ##DEPENDENCIAS
 # FUNCION: pdi:mob/mobs_timer (INICIAR LOS TIMERS DE LOS ZOMBIES)
