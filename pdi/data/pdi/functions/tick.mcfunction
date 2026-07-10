@@ -35,6 +35,8 @@ execute if score #moon comprobador matches 60 run function pdi:eventos/raid/raid
 #6.Jefes
 #6.1.Ilucionista
 execute if score #ilucionista_on comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_ciclo
+#6.2 Avanzado
+execute if score #avanzdo_on comprobador matches 1 run function pdi:eventos/jefes/pillager/avanzado/avanzado_ciclo
 
 
 ##DEPENDENCIAS

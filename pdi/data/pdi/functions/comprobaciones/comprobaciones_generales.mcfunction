@@ -13,13 +13,6 @@ tellraw @s ["1.2.Ticks totales: ", {"score": {"name": "#game", "objective": "com
 #
 #1.3.Dificultad del juego
 tellraw @s ["1.3.Dificultad del juego: ",{"score":{"name":"#game","objective":"dificultad"}}]
-#
-#1.4.Version del datapack
-tellraw @s ["1.4.Version: ", {"nbt":"CustomName","entity":"@e[tag=version,limit=1]","interpret":true}]
-#
-#1.5.Descripcion del datapack
-tellraw @s ["1.5.Version: ",{"nbt":"CustomName","entity":"@e[tag=descripcion,limit=1]","interpret":true}]
-
 
 #2.Eliminacion del scoreboard
 scoreboard objectives remove compr_generales

@@ -1,6 +1,6 @@
 #0.Archivo encargado de inicializar scoreboards, funciones y caracteisticas del server
-say Version3.1
-function pdi:funciones_generales/comprobador/comprobador_activar
+say Version 4.0
+execute as @p run function pdi:funciones_generales/comprobador/comprobador_activar
 
 #1.Degugeador (scoreboard y declaracion)
 scoreboard objectives add comprobador dummy
@@ -27,10 +27,6 @@ function pdi:mob/mobs_timer
 
 #6.Luna roja (dias restantes)
 scoreboard objectives add dias_res_lr dummy
-
-#7.Jefes
-#7.1.Ilucionista
-execute if score #ilucionista_on comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_ciclo
 
 ##DEPENDENCIAS
 # FUNCION: pdi:mob/mobs_timer (INICIAR LOS TIMERS DE LOS ZOMBIES)
