@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "arana_francotirador":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "skeleton",
+                        "nbt": "{Tags:[\"arana_9_a\"]}"
+                    },
+                    "type": {
+                        "is_projectile": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pdi:efectos/mob/arana/arana_hit9"
+    }
+}

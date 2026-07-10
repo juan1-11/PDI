@@ -6,10 +6,10 @@ execute as @e[type=minecraft:evoker,tag=ilucionista] store result bossbar pdi:il
 
 #2.Deteccion segunda fase
 execute as @e[type=minecraft:evoker,tag=ilucionista] store result score #ilucionista vida run data get entity @s Health 1
-execute if score #ilucionista vida matches ..40 if score #ilucionista comprobador matches 0 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_segunda_fase
+execute if score #ilucionista vida matches ..80 if score #ilucionista comprobador matches 0 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_segunda_fase
 
 #3.Detectar muerte
-execute if score #ilucionista vida matches ..0 if score #ilucionista comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_segunda_fase
+execute if score #ilucionista vida matches ..20 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_muerte
 
 #00.Debug
 execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative] ["se corre la funcion de ciclo"]

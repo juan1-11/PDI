@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "arana_fuego":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "type": "spider",
+                        "nbt": "{Tags:[\"arana_1\"]}"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "pdi:efectos/mob/arana/arana_hit1"
+    }
+}

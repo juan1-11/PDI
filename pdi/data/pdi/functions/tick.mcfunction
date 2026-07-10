@@ -11,6 +11,8 @@ function pdi:mob/mobs_init
 #2.00.Debug
 execute if score #game sfa_comp_mob_c_t matches 1 run function pdi:mob/mob_comprobaciones/cegador/timer/comprobacion_timer_cegador
 execute if score #game sfa_comp_mob_z_t matches 1 run function pdi:mob/mob_comprobaciones/zombie/timer/comprobacion_timer_zombie
+execute if score #game sfa_comp_mob_a_t matches 1 run function pdi:mob/mob_comprobaciones/arana/timer/comprobacion_timer_arana
+
 
 #3.Cofre de resurreccion
 function pdi:eventos/resureccion/cofre_resurreccion

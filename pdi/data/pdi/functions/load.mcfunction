@@ -1,6 +1,6 @@
 #0.Archivo encargado de inicializar scoreboards, funciones y caracteisticas del server
-say run
-
+say Version3.1
+function pdi:funciones_generales/comprobador/comprobador_activar
 
 #1.Degugeador (scoreboard y declaracion)
 scoreboard objectives add comprobador dummy

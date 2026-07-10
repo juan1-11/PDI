@@ -18,3 +18,14 @@ execute if score #game random matches 141..160 if score #game dificultad matches
 execute if score #game random matches 161..180 if score #game dificultad matches 4.. if score #mzo9 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init] run function pdi:mob/zombies/zombie_init9
 execute if score #game random matches 181..200 if score #game dificultad matches 4.. if score #mzo10 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init] run function pdi:mob/zombies/zombie_init10
 
+#3.Generacion de arañas
+execute if score #game random matches 0..20 if score #game dificultad matches 5.. if score #mar1 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init1
+execute if score #game random matches 21..40 if score #game dificultad matches 5.. if score #mar2 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init2
+execute if score #game random matches 41..60 if score #game dificultad matches 5.. if score #mar3 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init3
+execute if score #game random matches 61..80 if score #game dificultad matches 5.. if score #mar4 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init4
+execute if score #game random matches 81..100 if score #game dificultad matches 5.. if score #mar5 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init5
+execute if score #game random matches 101..120 if score #game dificultad matches 6.. if score #mar6 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init6
+execute if score #game random matches 121..140 if score #game dificultad matches 6.. if score #mar7 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init7
+execute if score #game random matches 141..160 if score #game dificultad matches 6.. if score #mar8 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init8
+execute if score #game random matches 161..180 if score #game dificultad matches 6.. if score #mar9 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init9
+execute if score #game random matches 181..200 if score #game dificultad matches 6.. if score #mar10 mob_timer matches ..0 run execute as @e[type=minecraft:spider, tag=!init] run function pdi:mob/aranas/arana_init10

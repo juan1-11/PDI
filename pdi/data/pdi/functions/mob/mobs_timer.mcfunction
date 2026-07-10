@@ -20,6 +20,17 @@ scoreboard players set #mzo8 mob_timer 600
 scoreboard players set #mzo9 mob_timer 400
 scoreboard players set #mzo10 mob_timer 200
 
+#4.Timers de las arañas
+scoreboard players set #mar1 mob_timer 210
+scoreboard players set #mar2 mob_timer 360
+scoreboard players set #mar3 mob_timer 300
+scoreboard players set #mar4 mob_timer 380
+scoreboard players set #mar5 mob_timer 300
+scoreboard players set #mar6 mob_timer 350
+scoreboard players set #mar7 mob_timer 300
+scoreboard players set #mar8 mob_timer 320
+scoreboard players set #mar9 mob_timer 330
+scoreboard players set #mar10 mob_timer 300
 
 
 

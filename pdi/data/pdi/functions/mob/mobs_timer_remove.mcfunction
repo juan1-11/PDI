@@ -17,3 +17,15 @@ scoreboard players remove #mzo8 mob_timer 1
 scoreboard players remove #mzo9 mob_timer 1
 scoreboard players remove #mzo10 mob_timer 1
 
+#3.Timers de las arañas
+scoreboard players remove #mar1 mob_timer 1
+scoreboard players remove #mar2 mob_timer 1
+scoreboard players remove #mar3 mob_timer 1
+scoreboard players remove #mar4 mob_timer 1
+scoreboard players remove #mar5 mob_timer 1
+scoreboard players remove #mar6 mob_timer 1
+scoreboard players remove #mar7 mob_timer 1
+scoreboard players remove #mar8 mob_timer 1
+scoreboard players remove #mar9 mob_timer 1
+scoreboard players remove #mar10 mob_timer 1
+

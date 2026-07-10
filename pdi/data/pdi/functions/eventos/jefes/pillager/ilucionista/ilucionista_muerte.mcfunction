@@ -7,12 +7,17 @@ title @a subtitle {"text": "volvere por él", "color": "dark_red"}
 
 #2.Matar a los vindicadores
 kill @e[tag=vindicador1]
+kill @e[tag=ilucionista]
+kill @e[type=vex]
 
 #3.Actualiza los scoreboards
 scoreboard players set #ilucionista_on comprobador 0
 
 #4.Dar objetos
-function pdi:eventos/dar_items_lore/bitacora_ilucionista
+execute as @r run function pdi:eventos/dar_items_lore/bitacora_ilucionista
+
+#5.Ocultar el scoreboard
+execute as @a run bossbar set pdi:ilucionista visible false
 
 ##DEPENDENCIAS
 # FUNCION: pdi:eventos/dar_items_lore/bitacora_ilucionista (DAR LIBRO Y LLAVE DE ESKI) 
