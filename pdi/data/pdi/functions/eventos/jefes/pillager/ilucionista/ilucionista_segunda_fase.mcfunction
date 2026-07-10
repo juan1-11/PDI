@@ -4,10 +4,10 @@
 scoreboard players set #ilucionista comprobador 1
 
 #2.Invocacion
-summon vindicator ~5 ~ ~5 {Tags:["vindicador1"]}
-summon vindicator ~5 ~ ~-5 {Tags:["vindicador1"]}
-summon vindicator ~-5 ~ ~5 {Tags:["vindicador1"]}
-summon vindicator ~-5 ~ ~-5 {Tags:["vindicador1"]}
+summon vindicator ~5 ~ ~5 {Tags:["vindicador1"],Attributes:[{Name:"generic.attack_knockback",Base:6},{Name:"generic.armor",Base:10},{Name:generic.max_health,Base:40}]}
+summon vindicator ~5 ~ ~-5 {Tags:["vindicador1"],Attributes:[{Name:"generic.attack_knockback",Base:6},{Name:"generic.armor",Base:10},{Name:generic.max_health,Base:40}]}
+summon vindicator ~-5 ~ ~5 {Tags:["vindicador1"],Attributes:[{Name:"generic.attack_knockback",Base:6},{Name:"generic.armor",Base:10},{Name:generic.max_health,Base:40}]}
+summon vindicator ~-5 ~ ~-5 {Tags:["vindicador1"],Attributes:[{Name:"generic.attack_knockback",Base:6},{Name:"generic.armor",Base:10},{Name:generic.max_health,Base:40}]}
 
 #3.Mostrar un mensaje
 title @a times 20 40 20

@@ -10,3 +10,9 @@ kill @e[tag=vindicador1]
 
 #3.Actualiza los scoreboards
 scoreboard players set #ilucionista_on comprobador 0
+
+#4.Dar objetos
+function pdi:eventos/dar_items_lore/bitacora_ilucionista
+
+##DEPENDENCIAS
+# FUNCION: pdi:eventos/dar_items_lore/bitacora_ilucionista (DAR LIBRO Y LLAVE DE ESKI) 
