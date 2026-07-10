@@ -1,7 +1,7 @@
 #0.Archivo encargado de la segunda fase del jefe
 
 #1.Actualizacion de variables
-scoreboard players set #ilucionista comprobador 1
+scoreboard players set #avanzado comprobador 1
 
 #2.Mensaje
 title @a times 20 40 20

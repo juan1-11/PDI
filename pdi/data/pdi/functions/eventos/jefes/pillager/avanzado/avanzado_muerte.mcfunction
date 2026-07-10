@@ -9,7 +9,7 @@ title @a subtitle {"text": "volvere por él", "color": "dark_red"}
 kill @e[tag=avanzado]
 
 #3.Actualiza los scoreboards
-scoreboard players set #avanzdo_on comprobador 0
+scoreboard players set #avanzado_on comprobador 0
 
 #4.Dar objetos
 execute as @r run function pdi:eventos/dar_items_lore/bitacora_avanzado
