@@ -1,9 +1,9 @@
 #0.Archivo encargado de generar mobs especiales dependiendo del RNG
 
 #1.Generacion de cegadores
-execute if score #game dificultad matches 1.. if score #mce1 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init] run function pdi:mob/cegadores/cegador_init1
-execute if score #game dificultad matches 1.. if score #mce2 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init] run function pdi:mob/cegadores/cegador_init2
-execute if score #game dificultad matches 1.. if score #mce2 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init] run function pdi:mob/cegadores/cegador_init3
+execute if score #game dificultad matches 1.. if score #mce1 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init,limit=2] run function pdi:mob/cegadores/cegador_init1
+execute if score #game dificultad matches 1.. if score #mce2 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init,limit=2] run function pdi:mob/cegadores/cegador_init2
+execute if score #game dificultad matches 1.. if score #mce2 mob_timer matches ..0 run execute as @e[type=minecraft:zombie, tag=!init,limit=2] run function pdi:mob/cegadores/cegador_init3
 
 
 #2.Generacion de zombies

@@ -35,12 +35,15 @@ execute if score #moon comprobador matches 60 run function pdi:eventos/raid/raid
 #6.Jefes
 #6.1.Ilucionista
 execute if score #ilucionista_on comprobador matches 1 run function pdi:eventos/jefes/pillager/ilucionista/ilucionista_ciclo
-#6.2 Avanzado
+#6.2.Avanzado
 execute if score #avanzado_on comprobador matches 1 run function pdi:eventos/jefes/pillager/avanzado/avanzado_ciclo
+#6.3.Nigromante
+execute if score #nigromante_on comprobador matches 1 run function pdi:eventos/jefes/zombie/nigromante/nigromante_ciclo
+
 
 #7.Estructuras activacion
 #7.1.Forga 1(activacion_forga1)
-execute if score #forga1 sfa_forga_1 matches 0 run function pdi:eventos/forgas_activacion/activacion_forga1
+execute in minecraft:the_nether if score #forga1 sfa_forga_1 matches 0 run function pdi:eventos/forgas_activacion/activacion_forga1
 
 
 ##DEPENDENCIAS

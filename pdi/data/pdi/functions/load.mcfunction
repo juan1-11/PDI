@@ -1,5 +1,5 @@
 #0.Archivo encargado de inicializar scoreboards, funciones y caracteisticas del server
-say Version 4.0
+say Version 5.0
 execute as @p run function pdi:funciones_generales/comprobador/comprobador_activar
 
 #1.Degugeador (scoreboard y declaracion)
