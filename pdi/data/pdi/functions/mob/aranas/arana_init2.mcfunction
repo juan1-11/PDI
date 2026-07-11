@@ -12,4 +12,4 @@ attribute @s generic.attack_knockback base set 7
 scoreboard players set #mar2 mob_timer 360
 
 #00.Degub
-execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 2"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 2 " , {"nbt":"Pos","entity":"@s"}]

@@ -28,5 +28,6 @@ function pdi:mob/mobs_timer
 #6.Luna roja (dias restantes)
 scoreboard objectives add dias_res_lr dummy
 
+
 ##DEPENDENCIAS
 # FUNCION: pdi:mob/mobs_timer (INICIAR LOS TIMERS DE LOS ZOMBIES)

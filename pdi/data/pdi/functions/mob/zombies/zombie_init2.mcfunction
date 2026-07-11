@@ -14,4 +14,4 @@ attribute @s generic.armor base set 2
 scoreboard players set #mzo2 mob_timer 160
 
 ##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 2 generado"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 2 generado " , {"nbt":"Pos","entity":"@s"}]

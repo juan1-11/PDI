@@ -15,4 +15,4 @@ attribute @s generic.attack_damage base set 8
 scoreboard players set #mce3 mob_timer 200
 
 ##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Cegador 3 generado"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Cegador 3 generado " , {"nbt":"Pos","entity":"@s"}]

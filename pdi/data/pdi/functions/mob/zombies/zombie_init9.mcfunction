@@ -13,4 +13,4 @@ data modify entity @s HandItems set value [{id:"iron_sword",Count:1b,tag:{Enchan
 scoreboard players set #mzo9 mob_timer 400
 
 ##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 9 generado"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 9 generado " , {"nbt":"Pos","entity":"@s"}]

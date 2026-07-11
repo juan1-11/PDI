@@ -15,4 +15,4 @@ attribute @s generic.armor base set 10
 scoreboard players set #mar8 mob_timer 320
 
 #00.Degub
-execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 8"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 8 " , {"nbt":"Pos","entity":"@s"}]

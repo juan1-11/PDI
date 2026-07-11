@@ -13,4 +13,4 @@ data modify entity @s HandItems set value [{id:"wooden_shovel", Count:1b,tag:{En
 scoreboard players set #mzo5 mob_timer 200
 
 ##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 5 generado"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 5 generado " , {"nbt":"Pos","entity":"@s"}]

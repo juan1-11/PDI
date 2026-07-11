@@ -14,4 +14,4 @@ attribute @s generic.movement_speed base set 2
 scoreboard players set #mzo3 mob_timer 100
 
 ##00.Debug
-execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 3 generado"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode= creative, limit=1] ["Zombi 3 generado " , {"nbt":"Pos","entity":"@s"}]

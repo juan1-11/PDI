@@ -12,4 +12,4 @@ kill @s
 scoreboard players set #mar10 mob_timer 360
 
 #00.Degub
-execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 10"]
+execute if score #game comprobador matches 1 run tellraw @a[gamemode=creative,limit=1] ["se ha generado una araña 10 " , {"nbt":"Pos","entity":"@s"}]

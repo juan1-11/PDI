@@ -40,7 +40,7 @@ execute if score #avanzado_on comprobador matches 1 run function pdi:eventos/jef
 
 #7.Estructuras activacion
 #7.1.Forga 1(activacion_forga1)
-execute unless score #forga1 sfa_forga_1 matches 1 run function pdi:eventos/forgas_activacion/activacion_forga1
+execute if score #forga1 sfa_forga_1 matches 0 run function pdi:eventos/forgas_activacion/activacion_forga1
 
 
 ##DEPENDENCIAS
