@@ -4,7 +4,7 @@
 tag @s add init
 
 #2.Invocacion
-summon minecraft:zombie_horse ~ ~ ~ {Tame:1b,Passengers:[{id:"minecraft:zombie",Tags:["init"],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],Attributes:[{Name:"generic.armor",Base:10},{Name:"generic.attack_damage",Base:3}]}]}
+execute as @s at @s run summon minecraft:zombie_horse ~ ~ ~ {Tame:1b,Passengers:[{id:"minecraft:zombie",Tags:["init"],ArmorItems:[{id:"minecraft:iron_boots",Count:1b},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:iron_chestplate",Count:1b},{id:"minecraft:iron_helmet",Count:1b}],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],Attributes:[{Name:"generic.armor",Base:10},{Name:"generic.attack_damage",Base:3}]}]}
 
 #3.Reemplazo
 kill @s
